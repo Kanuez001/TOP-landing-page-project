@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 .header {
     background-color: #1F2937;
     padding: 10px 120px 75px 120px;
@@ -49,6 +53,17 @@ button {
     padding: 8px 27px;
     border-radius: 10px;
 }
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+
 /*.body {
     display: flex;
     flex-direction: column;
