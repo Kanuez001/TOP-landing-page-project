@@ -52,6 +52,10 @@ button {
     background-color: #3882F6;
     padding: 8px 27px;
     border-radius: 10px;
+    color: #E5E7EB;
+    border-color: #E5E7EB;
+    flex: none;
+    border-width: 2px;
 }
 
 .footer {
@@ -63,9 +67,52 @@ button {
     margin: 0px;
 }
 
-
-/*.body {
+.bodyp {
     display: flex;
-    flex-direction: column;
-    flex: 1;
-}*/
+    justify-content: center;
+    gap: 35px;
+}
+
+.infoh1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.infoimg {
+    width: 200px;
+    height: 200px;
+}
+
+.imgdiv {
+    width: 200px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    text-align: start;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 50px 220px 50px 220px;
+    margin-top: 80px;
+}
+
+.quoter {
+    text-align: end;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.sub {
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 80px 100px 80px 100px;
+    padding: 40px 80px 40px 80px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
